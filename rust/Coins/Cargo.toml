@@ -1,0 +1,6 @@
+[package]
+name = "coins"
+version = "0.1.0"
+authors = ["dashaw92 <dashaw92@gmail.com>"]
+
+[dependencies]
