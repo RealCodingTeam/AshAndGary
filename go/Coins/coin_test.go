@@ -28,11 +28,6 @@ func Test_parse(t *testing.T) {
 			input:          1000,
 			expectedOutput: 1370,
 		},
-		{
-			name:           "Test for 10000",
-			input:          10000,
-			expectedOutput: 16615,
-		},
 	}
 
 	for _, test := range tests {
