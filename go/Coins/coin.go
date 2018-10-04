@@ -18,9 +18,7 @@ func breakdown(coin int) {
 	var values []int
 
 	if coin > 11 {
-		values = append(values, coin/2)
-		values = append(values, coin/3)
-		values = append(values, coin/4)
+		values = append(values, coin/2, coin/3, coin/4)
 
 		for _, n := range values {
 			breakdown(n)
