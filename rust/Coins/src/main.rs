@@ -6,7 +6,7 @@ pub struct Coin {
 impl Coin {
     pub fn new(value: i32) -> Self {
         Coin {
-            value: value,
+            value,
         }
     }
 
